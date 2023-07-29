@@ -25,18 +25,14 @@ Functional operations:
 ● Python used for this task
 ● Database used is Postgres
 ● Supports unit testing
-
-Included:
-1. API documentation
-2. Throttle requests to less than 20 req per min so that site is not affected by
+● Throttle requests to less than 20 req per min so that site is not affected by
 the task
 
-The folder contains 3 jupyter notebooks:
-1. Code-Flask_api_Postgres - Includes jupyter notebook which writes a python script for Flask API 
+The folder contains 2 jupyter notebooks:
+1. Final 2 - Includes jupyter notebook which writes a python script for Flask API 
 			     and connects it to Postgres database
-2. Code-Scraping_Postgres - Includes jupyter notebook which writes a python script using Beautiful Soup to scrape 
+2. Final 1 - Includes jupyter notebook which writes a python script using Beautiful Soup to scrape 
 			    job listings from Reed.co.uk and store it in a table in Postgres 
-3. Code-Unit_testing - Includes jupyter notebook which writes a python script for unit testing the endpoints of the API and sorting
 
 
 
